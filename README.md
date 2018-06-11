@@ -46,7 +46,7 @@ Use the keyboard direction to help her to reach Opera de Paris.
  9 - Valet : Personnages
  10 - Horse: Personnages
  11 - Forest
- 12 - Reverber Paris
+ 12 - 'Reverber Paris'
 
 
 
@@ -70,13 +70,6 @@ Change the queen hairs
 
 Change the differents types of obstacles
 
-
-
-
-// Est ce qu'il y a plusieurs niveaux de difficultés
- // Est ce que le score est enregistré
- // Multi joueur
- // Dans quel sens elle peut bouger : Gauche, Droite, Haut Bas : Avec quelle touche elle peut bouger : Clavier
 
 
 Function
