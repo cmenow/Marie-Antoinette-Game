@@ -353,7 +353,7 @@ function render() {
 }
 
 
-var count = 20;
+var count = 10;
 var compteur = document.querySelector("#output");
 var timer = setInterval(function() {
     compteur.innerHtml = count;
@@ -369,4 +369,4 @@ var timer = setInterval(function() {
     $("#output").text("00 : 0" + count)
 
 
-}, 2000);
+}, 1000);
