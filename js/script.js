@@ -354,7 +354,7 @@ function render() {
 
 
 var count = 10;
-var compteur = document.querySelector("#idDeMonElementHtml");
+var compteur = document.querySelector("#output");
 var timer = setInterval(function() {
     compteur.innerHtml = count;
     count -= 1;
@@ -366,6 +366,7 @@ var timer = setInterval(function() {
         clearInterval(timer);
     }
 
+    $("#output").text("00 : 0" + count)
 
 
 }, 1000);
