@@ -1,0 +1,23 @@
+html,
+body {
+    background: url("../img/horse.jpg") no-repeat center center;
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+#stage {
+    position: relative;
+    width: 768px;
+    height: 640px;
+}
+
+.cell {
+    display: block;
+    position: absolute;
+    width: 64px;
+    height: 64px;
+}

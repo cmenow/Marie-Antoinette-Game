@@ -1,0 +1,153 @@
+    html,
+    body {
+        margin: 0;
+        padding: 0;
+    }
+    
+    a:visited,
+    a {
+        color: white;
+        text-decoration: none;
+    }
+    
+    .cell {
+        display: block;
+        position: absolute;
+        width: 64px;
+        height: 64px;
+    }
+    
+    .container {
+        max-width: 940px;
+        margin: 0 auto;
+        padding: 0 10px;
+    }
+    
+    .jumbotron {
+        background: url("../img/versailles.jpg") no-repeat center center;
+        background-size: cover;
+        height: 100vh;
+    }
+    
+    .header {
+        background-color: #333;
+    }
+    
+    .nav {
+        list-style-type: none;
+        margin: 0;
+        padding: 20px 0;
+    }
+    
+    .nav li {
+        color: #fff;
+        display: inline;
+        font-family: 'Raleway', sans-serif;
+        font-weight: 600;
+        font-size: 12px;
+        margin-right: 25px;
+        text-transform: uppercase;
+    }
+    
+    .main {
+        position: relative;
+        top: 180px;
+        text-align: center;
+    }
+    
+    .main h1 {
+        color: #fff;
+        font-family: 'Raleway', sans-serif;
+        font-weight: 600;
+        font-size: 70px;
+        margin-top: 0;
+        margin-bottom: 80px;
+        text-transform: uppercase;
+    }
+    
+    .btn-primary {
+        background-color: #333;
+        color: #fff;
+        font-family: 'Raleway', sans-serif;
+        font-weight: 600;
+        font-size: 18px;
+        letter-spacing: 1.3px;
+        padding: 16px 40px;
+        text-decoration: none;
+        text-transform: uppercase;
+    }
+    
+    .btn-default {
+        border: 1px solid #333;
+        color: #333;
+        font-family: 'Raleway', sans-serif;
+        font-weight: 600;
+        font-size: 10px;
+        letter-spacing: 1.3px;
+        padding: 10px 20px;
+        text-decoration: none;
+        text-transform: uppercase;
+        display: inline-block;
+        margin-bottom: 20px;
+    }
+    
+    .footer p {
+        font-family: 'Raleway', sans-serif;
+        text-transform: uppercase;
+        font-size: 11px;
+    }
+    
+    .footer {
+        text-align: center;
+        color: #D6B47E;
+        font-weight: 300;
+        width: 100%;
+        font-size: 1.25rem;
+    }
+    
+    .supporting-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 45px 0 0 0;
+    }
+    
+    .supporting-container div {
+        background-size: cover;
+        min-width: 400px;
+        min-height: 500px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0 30px;
+    }
+    
+    .sensei {
+        background-image: url('../img/sensei.png');
+    }
+    
+    .master1 {
+        background-image: url('../img/master_of_lightning.png');
+    }
+    
+    .master2 {
+        background-image: url('../img/master_of_earth.png');
+    }
+    
+    h2 {
+        display: inline-block;
+        text-align: center;
+        background-color: #D6B47E;
+        padding: 3px 10px;
+        margin: 5px;
+        font-size: 1.75rem;
+    }
+    
+    h3 {
+        display: inline-block;
+        font-weight: 800;
+        background-color: #ffffff;
+        text-align: center;
+        padding: 10px 25px;
+        color: #D6B47E;
+    }
